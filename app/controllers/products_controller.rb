@@ -1,8 +1,8 @@
 class ProductsController < ApplicationController
 
 def index
-  byebug
-  @cart = session[:cart]
+  @product = params[:product]
+  cart << @product
 end
 
 def add
