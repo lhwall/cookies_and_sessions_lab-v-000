@@ -1,4 +1,6 @@
 <%#byebug%>
-<%@cart.each do |item|%>
+<%if @cart.class != nil%>
+  <%@cart.each do |item|%>
 <%= item %>
+<%end%>
 <%end%>
