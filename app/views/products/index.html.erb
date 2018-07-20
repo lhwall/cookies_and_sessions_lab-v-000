@@ -3,7 +3,7 @@
 <%= item %>
 <%end%>
 
-<%=form_tag do ({controller: "products", action: "add", method: "post"})%>
+<%=form_tag ({controller: "products", action: "add", method: "post"}) do %>
 <%=text_field_tag :product %>
 <%=submit_tag "add to cart"%>
 <%end%>
