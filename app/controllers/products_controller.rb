@@ -9,7 +9,4 @@ def add
   render :index
 end
 
-def item
-end
-
 end
